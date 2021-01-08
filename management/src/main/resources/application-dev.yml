@@ -1,0 +1,12 @@
+data:
+  mysql:
+    jdbcUrl: jdbc:p6spy:mysql://192.168.0.23:3306/convergence?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8&useSSL=false
+    driverClassName: com.p6spy.engine.spy.P6SpyDriver
+    userName: root
+    password: 123
+    maxLifetime: 60000
+  redis:
+    database: 10
+    hostName: 192.168.0.24
+    port: 6379
+    password:

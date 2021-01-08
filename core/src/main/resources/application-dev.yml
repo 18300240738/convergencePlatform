@@ -1,0 +1,13 @@
+data:
+  mysql:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    maxLifetime: 60000
+  redis:
+    database: 10
+    hostName: 192.168.0.24
+    port: 6379
+    password:
+request:
+  serverAddress: http://192.168.0.81:10000
+  dataSourcePath: /sys/basicData/info
+  dataFieldRulePath: /sys/basicData/fieldRuleInfo
